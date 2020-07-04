@@ -1,0 +1,1 @@
+# bersihkan.sh
