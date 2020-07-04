@@ -13,6 +13,15 @@ wget  https://github.com/dankerizer/bersihkan.sh/raw/master/bersihkan.sh --outpu
 mv bersihkan.sh /usr/local/sbin
 ```
 
+## REMEMBER
+Don't run this script on global, because this script could remove all file that named with "node_modules"
+
+So, go to your development folder. for example i use MAMP, so i open htdocs folder 
+```
+cd /Applications/MAMP/htdocs
+```
+and than...
+
 ## Run
 ```bash
 bersihkan.sh
